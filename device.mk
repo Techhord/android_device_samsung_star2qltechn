@@ -1,8 +1,11 @@
-
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
-
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+#
+# Copyright (C) 2023 The VoltageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
 
 # Inherit common device configuration
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

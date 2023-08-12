@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2023 The VoltageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_star2qltechn.mk
+    $(LOCAL_DIR)/voltage_star2qltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-	lineage_star2qltechn-user \
-	lineage_star2qltechn-userdebug \
-	lineage_star2qltechn-eng
+	voltage_star2qltechn-user \
+	voltage_star2qltechn-userdebug \
+	voltage_star2qltechn-eng
