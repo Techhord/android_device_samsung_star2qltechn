@@ -17,13 +17,11 @@
 
 cc_library_static {
     name: "libinit_star2qltechn",
-    recovery_available: true,
     srcs: ["init_star2qltechn.cpp"],
+    recovery_available: true,
+    whole_static_libs: ["libbase"],
     include_dirs: [
-        "system/core/base/include",
+        "system/libbase/include",
         "system/core/init"
-    ],
-    shared_libs: [
-        "libbase",
-    ],
+    ]
 }
