@@ -7,5 +7,8 @@
 # Inherit common device configuration
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    star2qltechnSettingsOverlay
